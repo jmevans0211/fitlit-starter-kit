@@ -56,35 +56,35 @@ beforeEach(() => {
 
 describe('User', function() {
   
-  it.only('should be a function', function() {
+  it('should be a function', function() {
     expect(User).to.be.a('function');
   });
   
-  it.only('should have an id', function() {
+  it('should have an id', function() {
     expect(user3.id).to.be.equal(3);
   });
 
-  it.only('should have a name', function() {
+  it('should have a name', function() {
     expect(user1.name).to.be.equal('Luisa Hane')
   });
 
-  it.only('should have an address', function() {
+  it('should have an address', function() {
     expect(user3.address).to.be.equal('85823 Bosco Fork, East Oscarstad MI 85126-5660');
   });
 
-  it.only('should have an email', function() {
+  it('should have an email', function() {
     expect(user1.email).to.be.equal('Diana.Hayes1@hotmail.com');
   })
 
-  it.only('should have a stride length', function() {
+  it('should have a stride length', function() {
     expect(user2.strideLength).to.be.equal(4.5);
   });
 
-  it.only('should have a daily step goal', function() {
+  it('should have a daily step goal', function() {
     expect(user3.dailyStepGoal).to.be.equal(5000);
   });
 
-  it.only('should have friends', function() {
+  it('should have friends', function() {
     expect(user3.friends).to.deep.equal([
       19,
       11,
@@ -93,7 +93,7 @@ describe('User', function() {
     ]);
   });
 
-  it.only('should return the first name', function() {
+  it('should return the first name', function() {
     expect(user1.returnFirstName()).to.equal('Luisa')
   });
 

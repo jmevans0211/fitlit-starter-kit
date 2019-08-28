@@ -64,15 +64,8 @@ class SleepRepository {
       }
 
     }).filter(el => el !== undefined)
-    
    }
-
-
 }
-
-
-
-
 
 if (typeof module !== 'undefined') {
   module.exports = SleepRepository;

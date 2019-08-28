@@ -7,40 +7,42 @@ class SleepUser {
     return this.sleepTestData.filter(user => user.userID === id);
   }
 
+  findDay(date, id) {
+    return this.findUserInfo(id).find(user => user.date === date);
+  }
+
   findUserWeeklyInfo(startDate, endDate, id) {
     return this.findUserInfo(id)
     .filter(day => day.date >= startDate && day.date <= endDate);
   }
 
   findDailySleep(date, id) {
-    let day = this.findUserInfo(id).find(user => user.date === date);
-    return day.hoursSlept;
+    return this.findDay(date, id).hoursSlept;
   }
 
   findDailySleepQuality(date, id) {
-    let day = this.findUserInfo(id).find(user => user.date === date)
-    return day.sleepQuality;
+    return this.findDay(date, id).sleepQuality;
   }
 
   findAverageHoursSlept(startDate, endDate, id) {
-    let userInfo = this.findUserInfo(id)
-    let week = userInfo.filter(day => day.date >= startDate && day.date <= endDate);
-    let dailyHours = week.map(day => day.hoursSlept);
-    let totalHours = dailyHours.reduce((acc, num) => {
+    let totalHours = this.findUserInfo(id)
+    .filter(day => day.date >= startDate && day.date <= endDate)
+    .map(day => day.hoursSlept)
+    .reduce((acc, num) => {
       return acc + num;
     }, 0)
     return Math.round((totalHours / 7) * 10) / 10;
   }
 
   findAverageQualitySlept(startDate, endDate, id) {
-    let userInfo = this.findUserInfo(id)
-    let week = userInfo.filter(day => day.date >= startDate && day.date <= endDate);
-    let dailyQuality = week.map(day => day.sleepQuality);
-    let totalQuality= dailyQuality.reduce((acc, num) => {
+    let totalQuality = this.findUserInfo(id)
+    .filter(day => day.date >= startDate && day.date <= endDate)
+    .map(day => day.sleepQuality)
+    .reduce((acc, num) => {
       acc += num;
       return acc
     }, 0)
-    return Math.round(totalQuality / 7 * 10) / 10
+    return Math.round(totalQuality / 7 * 10) / 10;
   }
 
   findSleepComparison(date, id) {
@@ -76,11 +78,7 @@ class SleepUser {
       return day.sleepQuality
     });
   }
-
-
 }
-
-
 
 if (typeof module !== 'undefined') {
   module.exports = SleepUser;
