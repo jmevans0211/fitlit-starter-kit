@@ -13,13 +13,13 @@ $(document).ready(() => {
   $('.p__span--stride').text(user.strideLength);
   $('.section__p--step-goals').text(userRepository.compareGoals(randomUserId));
   $('.p__span--daily-water').text(hydrationUser.findDailyHydration('2019/09/22', randomUserId));
-  $('.article__p--weekly').text(hydrationUser.findWeeklyHydration(randomUserId));
+  $('.article__p--weekly').text(hydrationUser.assignWeeklyHydration(randomUserId));
   $('.p__span--sleep-hours').text(sleepUser.findDailySleep('2019/09/22', randomUserId));
   $('.p__span--sleep-quality').text(sleepUser.findDailySleepQuality('2019/09/22', randomUserId));
   $('.p__span--sleep-average-hours').text(sleepUser.findAverageHoursSlept('2019/09/16', '2019/09/22', randomUserId));
   $('.p__span--sleep-average-quality').text(sleepUser.findAverageQualitySlept('2019/09/16', '2019/09/22', randomUserId));
-  $('.section__p--weekly-sleep-hours').text(sleepUser.findWeeklyHoursSlept('2019/09/16', '2019/09/22', randomUserId));
-  $('.section__p--weekly-sleep-quality').text(sleepUser.findWeeklySleepQuality('2019/09/16', '2019/09/22', randomUserId));
+  $('.section__p--weekly-sleep-hours').text(sleepUser.assignWeeklyHoursSlept('2019/09/16', '2019/09/22', randomUserId));
+  $('.section__p--weekly-sleep-quality').text(sleepUser.assignWeeklyQualitySlept('2019/09/16', '2019/09/22', randomUserId));
   // $('.header__date').text(findTodaysDate());
   $('.article__p--steps-daily').text(activityUser.getDailyStepCount(randomUserId));
   $('.article__p--minutes-daily').text(activityUser.findMinutesActive('2019/09/22', randomUserId));

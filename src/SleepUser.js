@@ -73,12 +73,31 @@ class SleepUser {
     });
   }
 
+  assignWeeklyHoursSlept(startDate, endDate, id) {
+    let counter = 0;
+    return this.findWeeklyHoursSlept(startDate, endDate, id).map(day => {
+      counter ++;
+      return ` Day ${counter}: ${day} `
+    })
+  }
+
   findWeeklySleepQuality(startDate, endDate, id) {
     return this.findUserWeeklyInfo(startDate, endDate, id).map(day => {
       return day.sleepQuality
     });
   }
+
+  assignWeeklyQualitySlept(startDate, endDate, id) {
+    let counter = 0;
+    return this.findWeeklySleepQuality(startDate, endDate, id).map(day => {
+      counter ++;
+      return ` Day ${counter}: ${day} `
+    })
+  }
+  
 }
+
+
 
 if (typeof module !== 'undefined') {
   module.exports = SleepUser;
