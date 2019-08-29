@@ -1,21 +1,12 @@
 * {
-  /* border: solid olivedrab 1px; */
 	font-family: 'Open Sans', sans-serif;
 }
-
-/* Dark #2C3531
-Dark Blue #116466
-beige1 #D9B08C
-beige2 #FFCB9A
-LightBlue #D1E8E2 */
 
 body {
   margin: 3%;
   color: white;
-  /* background: rgb(33, 17, 102); */
+  background: rgb(33, 17, 102);
   background: linear-gradient(310deg, rgb(187, 80, 214) 40%, rgb(63, 20, 151) 73%);
-  /* background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("stock-photo2.jpg");
-  background-image: url("stock-photo2.jpg"); */
 }
 
 h3 {
@@ -23,15 +14,31 @@ h3 {
 }
 
 header {
-  /* color: #D9B08C; */
   display: flex;
   grid-area: header;
-  height: 52vh;
+  height: 35vh;
   min-height: 220px;
 }
 
 div {
   display: flex;
+}
+
+.header__h1--name {
+  font-size: 33px
+}
+
+h4{
+  margin-top: 0px;
+  margin-bottom: 0px
+}
+
+h3 {
+  font-size: 24px
+}
+
+.h3__steps--weekly {
+  font-size: 24px
 }
 
 .header__h1--title {
@@ -40,17 +47,18 @@ div {
   margin-top: 1%;
   text-shadow: -5px -5px 5px black;
   width: 94vw;
-  
 }
 
-#section__card--info {
-  border-style: dotted;
-  border-radius: 10px;
-  /* height: 27vh;
-  min-height: 30px; */
-  padding: 6%;
+.sleep__info {
+  display: flex;
+  flex-direction: column;
+  padding-left: 39%;
+  padding-right: 38%;
   text-align: left;
-  
+}
+
+.h3__sleep {
+  font-size: 3vh
 }
 
 .section__compare {
@@ -63,18 +71,25 @@ div {
 }
 
 main {
-  /* color: #D1E8E2; */
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
-  /* grid-template-areas: 
-    "header header header header"
-    "main main . sidebar"
-    "footer footer footer footer"; */
 }
 
 .article__info {
   grid-area: sidebar;
+}
+
+.article__sleep--daily {
+  font-size: 22px
+}
+
+.article__sleep--average {
+  font-size: 24px
+}
+
+.h3__sleep--avs{
+  padding-top: 9%;
 }
 
 .article__water--daily {
@@ -86,10 +101,38 @@ main {
   width: 69%;
 }
 
+.section__p--step-goals {
+  font-size: 24px;
+  padding-right: 26%;
+  padding-left: 28%;
+}
+
+.section__p--compare-stairs {
+  margin-top: 12%;
+  border-top: solid;
+  padding-top: 6%;
+}
+
+.section__p--compare-step {
+  padding-top: 9%;
+  padding-bottom: 9%;
+}
+
+.section__p--compare-minutes {
+  margin-top: 6%;
+  border-top: solid;
+  margin-top: -5%;
+}
+
 .header__section--info {
   display: inline-block;
   width: 45%;
   padding-top: 9%;
+}
+
+.section__compare {
+  padding-left: 7%;
+  padding-right: 7%;
 }
 
 .section__card {
@@ -103,5 +146,69 @@ main {
 .section__water--weekly {
   border-color: #D1E8E2 
 }
+
+.article__p--weekly {
+  padding-left: 34%;
+  padding-right: 33%;
+  font-size: 24px
+}
+
+.p__span--daily-water {
+  font-size: 11vh;
+  font-weight: bold
+  
+}
+
+.section__steps--weekly {
+  font-size: 30px
+}
+
+.article__h4--weekly-steps {
+  font-size: 11vh;
+  padding-top: 18%;
+}
+
+.section__sleep--daily {
+  font-size: 30px
+}
+
+.ul__li {
+  text-align: left
+}
+
+.article__p--steps-weekly {
+  font-size: 23px
+}
+
+.section__friends {
+  padding-left: 12%;
+  padding-right: 13%;
+  padding-top: 16%;
+}
+
+.article__p--percent-world {
+  font-weight: bold;
+  font-size: 58px
+}
+
+.p__world{
+  font-size: 20px;
+  padding-left: 28%;
+  padding-right: 28%;
+}
+
+.h4__miles--walked {
+  font-size: 24px;
+  padding-top: 6%;
+}
+
+#section__card--info {
+  border-style: dotted;
+  border-radius: 10px;
+  padding: 6%;
+  text-align: left;
+  font-size: 2.5vh
+}
+
 
 
