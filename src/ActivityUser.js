@@ -45,17 +45,6 @@ class ActivityUser {
     return Math.round((totalTime / 7) * 10) /10
   }
 
-  // returnTotalMinutesAvg(date) {
-  //   return Math.floor(this.activityTestData.reduce((acc, element) => {
-  //     return acc + element.minutesActive}, 1) / this.activityTestData.length)
-  // }
-
-  // returnTotalStepsAvg() {
-  //   return Math.floor(this.activityTestData.reduce((acc, element) => {
-  //     return acc + element.stepCount}, 1) / this.activityTestData.length)
-  // }
-
-
   getGoal(id) {
     return this.userData.find(user => {
       return user.id === id
@@ -236,7 +225,6 @@ showUserFriendsSteps(date, id) {
   }));
   return friends.map(friend => {
     let sorted = friends.sort((a, b) => b.steps - a.steps);
-    console.log('user friends--->', friend.steps)
     return friend.steps[0];
   });
 }
