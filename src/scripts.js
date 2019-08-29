@@ -28,6 +28,12 @@ $(document).ready(() => {
   $('.article__p--percent-world').text(activityUser.calculatePercentOfWorldWalked(randomUserId));
   $('.article__h4--weekly-steps').text(activityUser.getWeeklyStepCount('2019/09/22', randomUserId));
 
+  $('.section__p--compare-step').text(activityUser.compareStepAverageWithUser('2019/06/15', randomUserId))
+  $('.section__p--compare-minutes').text(activityUser.compareMinutesAverageWithUser('2019/06/15', randomUserId))
+  $('.section__p--compare-stairs').text(activityUser.compareStairsAverageWithUser('2019/06/15', randomUserId))
+  $('.section__friends').text(appendFriends())
+  $('.test2').text(activityUser.showUserFriends("2019/06/23", randomUserId))
+
   $('.section__p--compare-step').text(activityUser.compareStepAverageWithUser('2019/09/22', randomUserId))
   $('.section__p--compare-minutes').text(activityUser.compareMinutesAverageWithUser('2019/09/22', randomUserId))
   $('.section__p--compare-stairs').text(activityUser.compareStairsAverageWithUser('2019/09/22', randomUserId))
@@ -38,7 +44,11 @@ $(document).ready(() => {
   $('.li__span--total-stairs').text(activityUser.calculateWeeksStairsClimbed('2019/09/16', '2019/09/22', randomUserId));
   $('.li__span--total-minutes').text(activityUser.calculateWeeksActiveMinutes('2019/09/16', '2019/09/22', randomUserId));
 
-
+function appendFriends() {
+  return `${activityUser.showUserFriends("2019/06/23", randomUserId)[0]} walked ${activityUser.showUserFriendsSteps("2019/06/23", randomUserId)[0]} steps today
+   ${activityUser.showUserFriends("2019/06/23", randomUserId)[1]} walked ${activityUser.showUserFriendsSteps("2019/06/23", randomUserId)[1]} steps today
+   ${activityUser.showUserFriends("2019/06/23", randomUserId)[2]} walked ${activityUser.showUserFriendsSteps("2019/06/23", randomUserId)[2]} steps`
+}
 
 });
 
