@@ -15,5 +15,4 @@ HTML, CSS, ES6
 
 ## Screenshots
 
-[fitlit-screenshot1.pdf](https://github.com/ZoeKHarvey/Check-Yo-Self/files/3554014/fitlit-screenshot1.pdf)
-
+![fitlit-screenshot2](https://user-images.githubusercontent.com/50784336/63914691-38472a00-c9f1-11e9-8c13-13af7053c707.jpg)
