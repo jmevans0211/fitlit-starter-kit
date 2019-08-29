@@ -1,5 +1,3 @@
-// const HydrationRepository = require('./HydrationRepository')
-
 class HydrationUser {
   constructor(hydrationTestData) {
     this.hydrationTestData = hydrationTestData;
