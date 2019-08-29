@@ -13,6 +13,6 @@ FitLit is a paired project for Module 2 students at the Turing School of Softwar
 HTML, CSS, ES6
 
 
-## The Example Comp
+## Screenshots
 
-![Comp](images/fitlit-comp.jpg)
+![](images/EXAMPLE.jpg)
