@@ -1,6 +1,7 @@
 # FitLit
 
 By Zoë Ketcham-Harvey and Jean-Marie Evans
+
 Submitted: 29 August 2019
 
 
