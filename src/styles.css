@@ -20,9 +20,10 @@ body {
 
 header {
   /* color: #D9B08C; */
-  grid-area: header;
   display: flex;
+  grid-area: header;
   height: 52vh;
+  min-height: 220px;
 }
 
 div {
