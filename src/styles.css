@@ -30,6 +30,10 @@ header {
   font-size: 24px
 }
 
+.header__h1--name {
+  font-size: 33px
+}
+
 div {
   display: flex;
 }
@@ -100,7 +104,7 @@ h3 {
 }
 
 .h3__sleep--avs{
-  padding-top: 18%;
+  padding-top: 9%;
 }
 .article__water--daily {
   grid-area: footer;
@@ -132,10 +136,6 @@ h3 {
   margin-top: 6%;
   border-top: solid;
   margin-top: -5%;
-}
-
-.article__h4--weekly-steps {
-  padding-top: 27%;
 }
 
 .header__section--info {
@@ -182,7 +182,8 @@ h3 {
 }
 
 .article__h4--weekly-steps {
-  font-size: 11vh
+  font-size: 11vh;
+  padding-top: 18%;
 }
 
 .section__sleep--daily {
@@ -197,6 +198,32 @@ h3 {
   font-size: 23px
 }
 
+.section__friends {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 23%;
+}
+
+.article__p--percent-world {
+  font-weight: bold;
+  font-size: 58px
+}
+
+.p__world{
+  font-size: 20px;
+  padding-left: 28%;
+  padding-right: 28%;
+
+}
+
+.h4__miles--walked {
+  font-size: 24px;
+  padding-top: 6%;
+}
+
+.article__p--percent-world {
+
+}
 
 
 
