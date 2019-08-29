@@ -22,8 +22,12 @@ header {
   /* color: #D9B08C; */
   display: flex;
   grid-area: header;
-  height: 52vh;
+  height: 30vh;
   min-height: 220px;
+}
+
+.h3__steps--weekly {
+  font-size: 24px
 }
 
 div {
@@ -46,7 +50,21 @@ div {
   min-height: 30px; */
   padding: 6%;
   text-align: left;
+  font-size: 2.5vh
   
+}
+
+.sleep__info {
+  display: flex;
+  flex-direction: column;
+  padding-left: 39%;
+  padding-right: 38%;
+  text-align: left;
+
+}
+
+.h3__sleep {
+  font-size: 3vh
 }
 
 main {
@@ -64,6 +82,26 @@ main {
   grid-area: sidebar;
 }
 
+.article__sleep--daily {
+  font-size: 22px
+}
+
+.article__sleep--average {
+  font-size: 24px
+}
+
+h4{
+  margin-top: 0px;
+  margin-bottom: 0px
+}
+
+h3 {
+  font-size: 24px
+}
+
+.h3__sleep--avs{
+  padding-top: 18%;
+}
 .article__water--daily {
   grid-area: footer;
 }
@@ -73,10 +111,42 @@ main {
   width: 69%;
 }
 
+.section__p--step-goals {
+  font-size: 24px;
+  padding-right: 26%;
+  padding-left: 28%;
+}
+
+.section__p--compare-stairs {
+  margin-top: 12%;
+  border-top: solid;
+  padding-top: 6%;
+}
+
+.section__p--compare-step {
+  padding-top: 9%;
+  padding-bottom: 9%;
+}
+
+.section__p--compare-minutes {
+  margin-top: 6%;
+  border-top: solid;
+  margin-top: -5%;
+}
+
+.article__h4--weekly-steps {
+  padding-top: 27%;
+}
+
 .header__section--info {
   display: inline-block;
   width: 45%;
   padding-top: 9%;
+}
+
+.section__compare {
+  padding-left: 7%;
+  padding-right: 7%;
 }
 
 .section__card {
@@ -90,5 +160,43 @@ main {
 .section__water--weekly {
   border-color: #D1E8E2 
 }
+
+.article__p--weekly {
+  padding-left: 34%;
+  padding-right: 33%;
+  font-size: 24px
+}
+
+.p__span--daily-water {
+  font-size: 11vh;
+  font-weight: bold
+  
+}
+
+.section__water--daily {
+
+}
+
+.section__steps--weekly {
+  font-size: 30px
+}
+
+.article__h4--weekly-steps {
+  font-size: 11vh
+}
+
+.section__sleep--daily {
+  font-size: 30px
+}
+
+.ul__li {
+  text-align: left
+}
+
+.article__p--steps-weekly {
+  font-size: 23px
+}
+
+
 
 
