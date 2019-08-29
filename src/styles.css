@@ -12,8 +12,8 @@ LightBlue #D1E8E2 */
 body {
   margin: 3%;
   color: white;
-  background: rgb(17,100,102);
-  background: linear-gradient(310deg, rgba(17,100,102,1) 40%, rgba(44,53,49,1) 73%);
+  /* background: rgb(33, 17, 102); */
+  background: linear-gradient(310deg, rgb(187, 80, 214) 40%, rgb(63, 20, 151) 73%);
   /* background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("stock-photo2.jpg");
   background-image: url("stock-photo2.jpg"); */
 }
@@ -31,10 +31,10 @@ div {
 }
 
 .header__h1--title {
-  font-size: 4vw;
-  text-shadow: -5px -5px 5px black;
-  margin-top: 1%;
   border-bottom: ridge white;
+  font-size: 4vw;
+  margin-top: 1%;
+  text-shadow: -5px -5px 5px black;
   width: 94vw;
   
 }
@@ -42,9 +42,10 @@ div {
 #section__card--info {
   border-style: dotted;
   border-radius: 10px;
-  height: 27vh;
-  text-align: left;
+  /* height: 27vh;
+  min-height: 30px; */
   padding: 6%;
+  text-align: left;
   
 }
 
