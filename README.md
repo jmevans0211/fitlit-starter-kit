@@ -16,4 +16,4 @@ HTML, CSS, ES6
 
 ## Screenshots
 
-![fitlit-screenshot2](https://user-images.githubusercontent.com/50784336/63914691-38472a00-c9f1-11e9-8c13-13af7053c707.jpg)
+![fitlit-screenshot2](images/screencapture-file-Users-jeannie-turing-mod-2-fitlit-starter-kit-src-index-html-2019-08-29-08_21_33.png)
