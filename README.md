@@ -15,5 +15,5 @@ HTML, CSS, ES6
 
 ## Screenshots
 
-[fitlit-screenshot](chrome-extension://fdpohaocaechififmbbbbbknoalclacl/capture.html?id=20&url=file%3A%2F%2F%2FUsers%2Fzoeketchamharvey%2FTuring%2FProjects%2Fmod-2%2Ffitlit-starter-kit%2Fsrc%2Findex.html)
+[fitlit-screenshot1.pdf](https://github.com/ZoeKHarvey/Check-Yo-Self/files/3554014/fitlit-screenshot1.pdf)
 
