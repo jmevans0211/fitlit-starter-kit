@@ -1,41 +1,40 @@
 * {
-  /* border: solid olivedrab 1px; */
 	font-family: 'Open Sans', sans-serif;
 }
-
-/* Dark #2C3531
-Dark Blue #116466
-beige1 #D9B08C
-beige2 #FFCB9A
-LightBlue #D1E8E2 */
 
 body {
   margin: 3%;
   color: white;
-  /* background: rgb(33, 17, 102); */
+  background: rgb(33, 17, 102);
   background: linear-gradient(310deg, rgb(187, 80, 214) 40%, rgb(63, 20, 151) 73%);
-  /* background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("stock-photo2.jpg");
-  background-image: url("stock-photo2.jpg"); */
 }
 
 header {
-  /* color: #D9B08C; */
   display: flex;
   grid-area: header;
-  height: 30vh;
+  height: 35vh;
   min-height: 220px;
 }
 
-.h3__steps--weekly {
-  font-size: 24px
+div {
+  display: flex;
 }
 
 .header__h1--name {
   font-size: 33px
 }
 
-div {
-  display: flex;
+h4{
+  margin-top: 0px;
+  margin-bottom: 0px
+}
+
+h3 {
+  font-size: 24px
+}
+
+.h3__steps--weekly {
+  font-size: 24px
 }
 
 .header__h1--title {
@@ -44,18 +43,6 @@ div {
   margin-top: 1%;
   text-shadow: -5px -5px 5px black;
   width: 94vw;
-  
-}
-
-#section__card--info {
-  border-style: dotted;
-  border-radius: 10px;
-  /* height: 27vh;
-  min-height: 30px; */
-  padding: 6%;
-  text-align: left;
-  font-size: 2.5vh
-  
 }
 
 .sleep__info {
@@ -64,7 +51,6 @@ div {
   padding-left: 39%;
   padding-right: 38%;
   text-align: left;
-
 }
 
 .h3__sleep {
@@ -72,14 +58,9 @@ div {
 }
 
 main {
-  /* color: #D1E8E2; */
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
-  /* grid-template-areas: 
-    "header header header header"
-    "main main . sidebar"
-    "footer footer footer footer"; */
 }
 
 .article__info {
@@ -94,18 +75,10 @@ main {
   font-size: 24px
 }
 
-h4{
-  margin-top: 0px;
-  margin-bottom: 0px
-}
-
-h3 {
-  font-size: 24px
-}
-
 .h3__sleep--avs{
   padding-top: 9%;
 }
+
 .article__water--daily {
   grid-area: footer;
 }
@@ -173,10 +146,6 @@ h3 {
   
 }
 
-.section__water--daily {
-
-}
-
 .section__steps--weekly {
   font-size: 30px
 }
@@ -199,9 +168,9 @@ h3 {
 }
 
 .section__friends {
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-top: 23%;
+  padding-left: 12%;
+  padding-right: 13%;
+  padding-top: 16%;
 }
 
 .article__p--percent-world {
@@ -213,7 +182,6 @@ h3 {
   font-size: 20px;
   padding-left: 28%;
   padding-right: 28%;
-
 }
 
 .h4__miles--walked {
@@ -221,8 +189,12 @@ h3 {
   padding-top: 6%;
 }
 
-.article__p--percent-world {
-
+#section__card--info {
+  border-style: dotted;
+  border-radius: 10px;
+  padding: 6%;
+  text-align: left;
+  font-size: 2.5vh
 }
 
 
