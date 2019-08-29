@@ -15,4 +15,4 @@ HTML, CSS, ES6
 
 ## Screenshots
 
-![](images/EXAMPLE.jpg)
+[screencapture-file-Users-zoeketchamharvey-Turing-Projects-mod-2-fitlit-starter-kit-src-index-html-2019-08-28-23_36_13.pdf](https://github.com/ZoeKHarvey/Idea-Box/files/3553972/screencapture-file-Users-zoeketchamharvey-Turing-Projects-mod-2-fitlit-starter-kit-src-index-html-2019-08-28-23_36_13.pdf)
