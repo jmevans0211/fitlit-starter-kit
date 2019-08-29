@@ -15,5 +15,5 @@ HTML, CSS, ES6
 
 ## Screenshots
 
-[fitlit-screenshot.pdf](https://github.com/ZoeKHarvey/Idea-Box/files/3553985/fitlit-screenshot.pdf)
+[fitlit-screenshot.pdf] !(https://github.com/ZoeKHarvey/Idea-Box/files/3553985/fitlit-screenshot.pdf)
 
