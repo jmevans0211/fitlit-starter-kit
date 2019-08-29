@@ -15,7 +15,7 @@ class HydrationUser {
     let weeklyData = userHydroData.slice((userHydroData.length - 7), userHydroData.length)
       return weeklyData.map((element) => {
         return element.numOunces
-      })  
+      })
   }
 
   assignWeeklyHydration(id) {
