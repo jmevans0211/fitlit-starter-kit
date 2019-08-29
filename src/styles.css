@@ -52,13 +52,12 @@ h3 {
 .sleep__info {
   display: flex;
   flex-direction: column;
-  padding-left: 39%;
-  padding-right: 38%;
+  padding: 10%;
   text-align: left;
 }
 
 .h3__sleep {
-  font-size: 3vh
+  font-size: 30px;
 }
 
 .section__compare {
@@ -102,9 +101,8 @@ main {
 }
 
 .section__p--step-goals {
-  font-size: 24px;
-  padding-right: 26%;
-  padding-left: 28%;
+  font-size: 45px;
+  padding: 10%;
 }
 
 .section__p--compare-stairs {
