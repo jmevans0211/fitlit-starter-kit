@@ -17,6 +17,16 @@ class HydrationUser {
         return element.numOunces
       })  
   }
+
+  assignWeeklyHydration(id) {
+    let counter = 0;
+    return this.findWeeklyHydration(id).map(day => {
+      counter ++;
+      return ` Day ${counter}: ${day} `
+    })
+  }
+
+
 }
 
 if (typeof module !== 'undefined') {
