@@ -71,6 +71,7 @@ h3 {
 
 main {
   display: grid;
+  margin-top: 75px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
 }
