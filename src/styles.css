@@ -9,6 +9,10 @@ body {
   background: linear-gradient(310deg, rgb(187, 80, 214) 40%, rgb(63, 20, 151) 73%);
 }
 
+h3 {
+  font-size: 26px;
+}
+
 header {
   display: flex;
   grid-area: header;
@@ -55,6 +59,15 @@ h3 {
 
 .h3__sleep {
   font-size: 3vh
+}
+
+.section__compare {
+  font-size: 23px;
+  padding: 45px;
+}
+
+.section__miles--walked, p {
+  font-size: 28px;
 }
 
 main {

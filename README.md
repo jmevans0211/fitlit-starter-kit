@@ -15,4 +15,4 @@ HTML, CSS, ES6
 
 ## Screenshots
 
-![](images/EXAMPLE.jpg)
+![fitlit-screenshot2](https://user-images.githubusercontent.com/50784336/63914691-38472a00-c9f1-11e9-8c13-13af7053c707.jpg)

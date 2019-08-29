@@ -20,12 +20,11 @@ $(document).ready(() => {
   $('.p__span--sleep-average-quality').text(sleepUser.findAverageQualitySlept('2019/09/16', '2019/09/22', randomUserId));
   $('.section__p--weekly-sleep-hours').text(sleepUser.assignWeeklyHoursSlept('2019/09/16', '2019/09/22', randomUserId));
   $('.section__p--weekly-sleep-quality').text(sleepUser.assignWeeklyQualitySlept('2019/09/16', '2019/09/22', randomUserId));
-  // $('.header__date').text(findTodaysDate());
   $('.article__p--steps-daily').text(activityUser.getDailyStepCount(randomUserId));
   $('.article__p--minutes-daily').text(activityUser.findMinutesActive('2019/09/22', randomUserId));
   $('.section__p--miles-daily').text(activityUser.calculateMilesWalked('2019/09/22', randomUserId));
   $('.article__span--steps-weekly').text(activityUser.findAverageMinutesActive('2019/09/16', '2019/09/22', randomUserId));
-  $('.article__p--percent-world').text(activityUser.calculatePercentOfWorldWalked(randomUserId));
+  $('.section__p--percent-world').text(activityUser.calculatePercentOfWorldWalked(randomUserId));
   $('.article__h4--weekly-steps').text(activityUser.getWeeklyStepCount('2019/09/22', randomUserId));
 
   $('.section__p--compare-step').text(activityUser.compareStepAverageWithUser('2019/06/15', randomUserId))
