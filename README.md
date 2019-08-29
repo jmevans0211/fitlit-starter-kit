@@ -15,4 +15,5 @@ HTML, CSS, ES6
 
 ## Screenshots
 
-[screencapture-file-Users-zoeketchamharvey-Turing-Projects-mod-2-fitlit-starter-kit-src-index-html-2019-08-28-23_36_13.pdf](https://github.com/ZoeKHarvey/Idea-Box/files/3553972/screencapture-file-Users-zoeketchamharvey-Turing-Projects-mod-2-fitlit-starter-kit-src-index-html-2019-08-28-23_36_13.pdf)
+[screencapture-file-Users-zoeketchamharvey-Turing-Projects-mod-2-fitlit-starter-kit-src-index-html-2019-08-28-23_36_13.pdf](https://github.com/ZoeKHarvey/Idea-Box/files/3553979/screencapture-file-Users-zoeketchamharvey-Turing-Projects-mod-2-fitlit-starter-kit-src-index-html-2019-08-28-23_36_13.pdf)
+
