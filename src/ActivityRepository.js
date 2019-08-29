@@ -30,11 +30,7 @@ class ActivityRepository {
     }, 0)
     return Math.round(totalSteps / this.getUsers(date).length);
   }
-  
-
-
-} 
-
+}
 
 if (typeof module !== 'undefined') {
   module.exports = ActivityRepository;

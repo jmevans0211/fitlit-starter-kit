@@ -10,11 +10,11 @@ beforeEach(() => {
 
 describe('ActivityRepository', function() {
 
-  it.only('should be a function', function() {
+  it('should be a function', function() {
     expect(ActivityRepository).to.be.a('function')
   });
 
-  it.only('find users based on date', function() {
+  it('find users based on date', function() {
     expect(activityRepository.getUsers("2019/06/18")).to.eql(
       [  {
         "userID": 1,
@@ -40,15 +40,15 @@ describe('ActivityRepository', function() {
     )
   });
 
-    it.only('should calculate average number of stairs for a specific date', function() {
+    it('should calculate average number of stairs for a specific date', function() {
       expect(activityRepository.findStairAverage("2019/06/18")).to.equal(30)
     });
 
-    it.only('should calculate average number of minutes active for a specific date', function() {
+    it('should calculate average number of minutes active for a specific date', function() {
       expect(activityRepository.findActiveMinutesAverage("2019/06/18")).to.equal(207)
     });
 
-    it.only('should calculate average number of minutes active for a specific date', function() {
+    it('should calculate average number of minutes active for a specific date', function() {
       expect(activityRepository.findStepAverage("2019/06/18")).to.equal(3876)
     });
 

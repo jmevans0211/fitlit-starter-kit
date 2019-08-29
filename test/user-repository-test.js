@@ -55,38 +55,38 @@ beforeEach(() => {
 });
 
 describe('UserRepository', function() {
-  it.only('should be a function', function() {
+  it('should be a function', function() {
     const userRepository = new UserRepository(testUsers);
     expect(UserRepository).to.be.a('function');
   });
 
-  it.only('should return average step goal amongst all users', function() {
+  it('should return average step goal amongst all users', function() {
     const userRepository = new UserRepository(testUsers);
     expect(userRepository.returnAverageStepsGoal()).to.equal(6667);
   });
 
-  it.only('should store users', function() {
+  it('should store users', function() {
     const userRepository = new UserRepository(testUsers);
     expect(userRepository.data).to.equal(testUsers);
   });
 
 
-  it.only('should find a user', function() {
+  it('should find a user', function() {
     const userRepository = new UserRepository(testUsers);
     expect(userRepository.findUserData(1)).to.deep.equal(testUsers[0])
   });
 
-  it.only('should compare average step goals to user average', function() {
+  it('should compare average step goals to user average', function() {
     const userRepository = new UserRepository(testUsers);
     expect(userRepository.getUserGoal(1)).to.equal(10000)
   });
 
-  it.only('should compare average step goals to user average', function() {
+  it('should compare average step goals to user average', function() {
     const userRepository = new UserRepository(testUsers);
     expect(userRepository.getUserGoalAverage()).to.equal(6667)
   });
 
-  it.only('should compare average step goals to user average', function() {
+  it('should compare average step goals to user average', function() {
     const userRepository = new UserRepository(testUsers);
     expect(userRepository.compareGoals(1)).to.equal('Your step goal is 3333 steps more than the user average.')
   });
