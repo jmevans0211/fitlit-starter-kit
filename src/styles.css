@@ -18,6 +18,10 @@ body {
   background-image: url("stock-photo2.jpg"); */
 }
 
+h3 {
+  font-size: 26px;
+}
+
 header {
   /* color: #D9B08C; */
   display: flex;
@@ -47,6 +51,15 @@ div {
   padding: 6%;
   text-align: left;
   
+}
+
+.section__compare {
+  font-size: 23px;
+  padding: 45px;
+}
+
+.section__miles--walked, p {
+  font-size: 28px;
 }
 
 main {
